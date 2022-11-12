@@ -1,0 +1,138 @@
+body{
+    font-family: Raleway;
+    background-image: url("/img/fondo.jpg");
+
+}
+
+.elemento{
+    box-shadow: 0 4px 8px #3ed3f8;
+    float: left;
+    width: 28%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color:  #a1bedf;
+    font-size: large;
+}
+
+.letra{
+    /*background-color: #dfcae1;*/
+    background-image: url("/img/text.jpg");
+    color: black;
+    border: 3px solid #0c586e;
+    float: left;
+    width: 100%;
+    font-size: large;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.letra :hover{
+    background-color: rgb(34, 117, 172);
+    color: rgb(17, 16, 16);
+}
+
+.autor{
+    /*border: 2px solid skyblue;*/
+
+    background-color: #FBE4FF;
+    text-align: center;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.menu{
+    overflow: hidden;
+    position: fixed;
+    font-family: Helvetica;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #9fd4e4;
+    padding: 5px;
+    font-size: x-large;
+    z-index: 2;
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size:  large;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000000;
+    font-weight: bold;
+    align-content: center;
+    transition-duration: 0.5s;
+}
+
+.menu a:hover{
+    background: #89e7eb;
+    color: black;
+    border: 6px solid #686569;
+    font-weight: 900;
+}
+
+.contenido{
+    border: 2px ;
+    justify-content: center;
+    font-size: small;
+}
+
+.foto{
+    width: 50%;
+    
+    display: block;
+    margin: 0px auto;
+}
+
+h2 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.foto_2 {
+    width: 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.autorB :hover{
+    background-color: #f0f1a3;
+    color: rgb(50, 81, 117);
+}
+
+.buscador {
+    margin-left: 80%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.busacdor img {
+    vertical-align: middle;
+}
+
+.buscador input {
+    border: 0px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Arial Narrow';
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+}
+.buscador input:hover {
+    border: 2px solid black;
+}
+
+.resaltado {
+    background-color: #6f6e79;
+    color: wheat;
+}
